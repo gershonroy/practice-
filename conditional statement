@@ -1,0 +1,7 @@
+#conditional statement
+def value(a,b):
+    if a>b:
+        return f" A is greater then B"
+    else:
+        return f" A is lesser then B"
+print(value(int(input("Enter the value A:")),int(input("Enter the value B:"))))
